@@ -1,0 +1,58 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A001 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B001; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B001 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B002 /* Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
+		B003 /* Lab2-Xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lab2-Xcode"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C001 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D001 = {isa = PBXGroup; children = (D002, D003); sourceTree = "<group>"; };
+		D002 = {isa = PBXGroup; children = (B001, B002); name = "Lab2-Xcode"; path = .; sourceTree = "<group>"; };
+		D003 = {isa = PBXGroup; children = (B003); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E001 = {isa = PBXNativeTarget; buildConfigurationList = F001; buildPhases = (E002, C001, E003); buildRules = ( ); dependencies = ( ); name = "Lab2-Xcode"; productName = "Lab2-Xcode"; productReference = B003; productType = "com.apple.product-type.tool"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F002 = {isa = PBXProject; attributes = { LastUpgradeCheck = 2720; }; buildConfigurationList = F003; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; mainGroup = D001; productRefGroup = D003; projectDirPath = ""; projectRoot = ""; targets = (E001); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E003 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E002 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A001); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		G001 = {isa = XCBuildConfiguration; buildSettings = { CLANG_CXX_LANGUAGE_STANDARD = "c++17"; GCC_C_LANGUAGE_STANDARD = gnu11; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; }; name = Debug; };
+		G002 = {isa = XCBuildConfiguration; buildSettings = { CLANG_CXX_LANGUAGE_STANDARD = "c++17"; GCC_C_LANGUAGE_STANDARD = gnu11; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; }; name = Release; };
+		G003 = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_CXX_LANGUAGE_STANDARD = "c++17"; MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; }; name = Debug; };
+		G004 = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_CXX_LANGUAGE_STANDARD = "c++17"; MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F001 = {isa = XCConfigurationList; buildConfigurations = (G001, G002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		F003 = {isa = XCConfigurationList; buildConfigurations = (G003, G004); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = F002;
+}
